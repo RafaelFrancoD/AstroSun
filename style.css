@@ -1,0 +1,462 @@
+/* RESET E ESTILOS GERAIS */
+:root {
+    --cor-sol: #FFD700; /* Amarelo Vibrante */
+    --cor-terra: #47063c; /* Azul Brilhante */
+    --cor-fundo-principal: #F0F8FF; /* Azul Claro/Quase Branco */
+    --cor-fundo-secundario: #E0FFFF; /* Ciano Claro */
+    --cor-texto: #333333;
+    --fonte-principal: 'Fredoka', cursive, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo-principal);
+    color: var(--cor-texto);
+    line-height: 1.6;
+    
+}
+
+/* CABEÇALHO E NAVEGAÇÃO */
+header {
+    background-color: var(--cor-terra);
+    color: white;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 0px 0px;
+    color:#efff09;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* SEÇÕES DE CONTEÚDO */
+.info-section {
+    padding: 60px 5%;
+    text-align: center;
+}
+.info-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: var(--cor-terra);
+}
+
+.cor-fundo-1 {
+    background-color: var(--cor-fundo-secundario);
+}
+
+/* SEÇÃO HERO (INÍCIO) */
+.hero-section {
+    background-color: var(--cor-sol);
+    color: white;
+    padding: 100px 5%;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: white;
+    color: var(--cor-terra);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+}
+
+/* CARDS DE INFORMAÇÃO */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 45%; /* Para telas maiores */
+    text-align: left;
+     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 0px 0px; 
+}
+.card:hover{
+transform: scale(1.1);
+    box-shadow: 5px 10px 20px rgb(236, 240, 12); 
+}
+.card h3 {
+    color: var(--cor-sol);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.card2 {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 45%; /* Para telas maiores */
+    text-align: left;
+     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 0px 0px; 
+}
+.card2:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px 20px rgb(236, 240, 12); 
+}
+
+.card2 h3 {
+    color: var(--cor-sol);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+/* LISTAS (IMPORTÂNCIA) */
+.info-section ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.info-section ul li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border-left: 5px solid var(--cor-terra);
+}
+
+/* LINKS DE ATIVIDADE */
+.atividade-links a {
+    display: inline-block;
+    background-color: #FF6347; /* Vermelho/Laranja divertido */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 0px 0px; 
+    font-size: 20px;
+}
+.atividade-links2 a {
+    display: inline-block;
+    background-color: #FF6347; /* Vermelho/Laranja divertido */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 35px 45px;
+    margin: 10px;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 0px 0px; 
+    font-size: 20px;
+}
+.atividade-links a:hover {
+    background-color: #FF4500;
+    transform: scale(1.1);
+    box-shadow: 5px 10px 20px #FF4500; 
+}
+
+/* RODAPÉ */
+footer {
+    background-color: var(--cor-terra);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 0px 0px; 
+
+}
+footer a{
+text-decoration: none;
+color: white; 
+}
+footer a:hover{
+   color:#ee08c8
+}
+/* RESPONSIVIDADE BÁSICA (Para celulares) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+#superpoderes{
+background: url(aurora.jpg);
+position: relative; 
+    overflow: hidden; /* Garante que o vídeo não saia da seção */
+    min-height: 400px; /* Defina uma altura mínima se o conteúdo for curto */
+}
+.background-video-aurora {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa toda a largura da seção */
+    height: 100%; /* Ocupa toda a altura da seção */
+    
+    /* Faz o vídeo se adaptar à div (corta se necessário para cobrir) */
+    object-fit: cover; 
+    
+    /* Coloca o vídeo BEM no fundo da DIV */
+    z-index: 1; 
+}
+
+/* Garante que o conteúdo (título e parágrafo) fique ACIMA do vídeo */
+#superpoderes p {
+    position: relative; 
+    z-index: 2; /* CRUCIAL: Maior que o z-index do vídeo */
+}
+
+/* Opcional: Ajuste o fundo do texto para melhorar a leitura sobre o vídeo */
+.texto-contornado {
+    background-color: rgba(3, 3, 3, 0.6); 
+    padding: 20px;
+    
+}
+#superpoderes p{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 0px 0px; 
+}
+#superpoderes p:hover{
+   transform: scale(1.1);
+    box-shadow: 5px 10px 20px rgb(255, 176, 231); 
+}
+#superpoderes h2{
+    font-size: 3em;
+
+    color:#ffffff;
+    -webkit-text-stroke: 1px #1E90FF;
+}
+.texto-contornado {
+
+    color: rgb(255, 253, 253);
+    -webkit-text-fill-color: rgb(255, 255, 255); 
+    
+    -webkit-text-stroke: 1px rgb(63, 48, 48);
+  
+    font-family: Arial, sans-serif;
+    font-size: 1.7em; 
+    border-color: aliceblue;
+    border: 2px solid;
+    background-color: #030303;
+    border-radius: 30px;
+    display:flex;
+    
+}
+
+.background-video {
+    /* Mude de 'fixed' para 'absolute' */
+    position: absolute; 
+    top: 0;
+    left: 0;
+    
+    /* Garante que o vídeo cubra 100% da largura e altura da div PAI */
+    min-width: 70%;
+    min-height: 100%;
+    
+    /* Faz o vídeo se adaptar à div (mantém a proporção) */
+    object-fit: cover; 
+    
+    /* Coloca o vídeo BEM no fundo da DIV */
+    z-index: 1; 
+    zoom: 0.4;
+}
+.background-video2 {
+    /* Mude de 'fixed' para 'absolute' */
+    position: absolute; 
+    top: 50;
+    left: 0;
+    
+    /* Garante que o vídeo cubra 100% da largura e altura da div PAI */
+    min-width: 100%;
+    min-height: 100%;
+    
+    /* Faz o vídeo se adaptar à div (mantém a proporção) */
+    object-fit:cover; 
+    
+    /* Coloca o vídeo BEM no fundo da DIV */
+    z-index: 1; 
+    zoom: 0.4;
+}
+/* 3. Estilos do Título (Conteúdo) */
+#inicio h1 {
+    /* Posicionamento do conteúdo ACIMA do vídeo */
+    position: relative; 
+    z-index: 2; /* CRUCIAL: Maior que o z-index do vídeo */
+    
+    /* Centraliza o título */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Estilo do texto para destaque */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+#inicio p{
+   position: relative; 
+    z-index: 5; /* CRUCIAL: Maior que o z-index do vídeo */
+   
+}
+
+#inicio {
+    /* Define o tamanho da sua seção (ajuste a altura conforme necessário) */
+    height: 60vh; /* Exemplo: 60% da altura da tela */
+    width: 100%;
+    
+    /* CRUCIAL: Define o container como o ponto de referência */
+    position: relative; 
+    overflow: hidden; /* Esconde o que o vídeo exceder */
+    
+    /* Opcional: Fallback de cor caso o vídeo não carregue */
+    background-color: #333; 
+}
+#o-que-e{
+    background-color: #a10587;
+    
+}
+
+#o-que-e h2{
+    color: #E0FFFF;
+}
+#escudo{
+    background-color: #8a066d;
+}
+#escudo h2{
+color: white;
+}
+#escudo p{
+    color: white;
+}
+#escudo li {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 0px 0px; 
+}
+
+#escudo li:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 10px 20px rgb(255, 176, 231); 
+    color:#a10587
+}
+#o-que-e a{
+    text-decoration: none;
+    color:#fffbfe;
+}
+
+header li a:hover {
+    color:#efff09
+}
+#loading-screen {
+    position: fixed; /* Fixa na tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 24, 82); /* Fundo preto */
+    display: flex; /* Para centralizar a imagem */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    z-index: 9999; /* Garante que fique acima de tudo */
+    transition: opacity 0.5s ease-out; /* Transição suave para desaparecer */
+}
+
+.loading-logo {
+    max-width: 80%; /* Garante que a imagem não seja muito grande */
+    max-height: 80%; /* Ajusta a altura */
+    object-fit: contain; /* Redimensiona a imagem para caber sem cortar */
+}
+.aurora_title{
+text-align: center;
+background-image: url(aurora.jpg);
+color: white;
+font-size: 20px;
+}
+.as{
+max-height: 10%;
+    max-width: 10%;
+    margin-right: 30em;
+    margin-bottom: -9em ; 
+
+}
+.comic-page{
+max-width: 100%;
+max-height: 100%;
+}
