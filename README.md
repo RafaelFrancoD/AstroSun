@@ -27,7 +27,6 @@ The website was created using the following tools:
 To clone and run the project, follow these steps:
 
 1.  Clone the repository: `git clone https://github.com/RafaelFrancoD/AstroSun.git`
-2.  Open the `index.html` file in your browser.
 
 ## Website
 
