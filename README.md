@@ -1,35 +1,35 @@
 # AstroSun
 
-AstroSun is an interactive and educational website about the sun and space weather, designed for children and curious adults.
+AstroSun é um site interativo e educativo, ele contém uma história em quadrinhos que visa exemplificar os efeitos do clima espacial na Terra e despetar a curiosidade científica e o pensamento crítico, consequentemente.
 
-## Content
+## Conteúdo
 
-The website has the following sections:
+O site tem as seguintes seções:
 
-*   **Home:** A brief introduction to the sun and space weather.
-*   **History:** The story of Astro Sun and space weather.
-*   **What is it?:** An explanation of solar wind and solar flares.
-*   **Superpowers:** A section about the auroras.
-*   **Our Shield:** An explanation of the Earth's magnetic field.
-*   **To explore:** A link to a quiz to test your knowledge.
+*   **Início:** Uma breve introdução ao sol e ao clima espacial.
+*   **História:** A história do Astro Sun e do clima espacial.
+*   **O que é?:** Uma explicação sobre o vento solar e as erupções solares.
+*   **Superpoderes:** Uma seção sobre as auroras.
+*   **Nosso Escudo:** Uma explicação sobre o campo magnético da Terra.
+*   **Para explorar:** Um link para um questionário para testar seus conhecimentos.
 
-## Tools
+## Ferramentas
 
-The website was created using the following tools:
+O site foi criado usando as seguintes ferramentas:
 
-*   **HTML:** For the structure of the website.
-*   **CSS:** For the styling of the website.
-*   **JavaScript:** For the interactive elements of the website.
-*   **Vercel:** For the deployment of the website.
+*   **HTML:** Para a estrutura do site.
+*   **CSS:** Para a estilização do site.
+*   **JavaScript:** Para os elementos interativos do site.
+*   **Vercel:** Para a implantação do site.
 
-## Cloning and Running the Project
+## Clonando e Executando o Projeto
 
-To clone and run the project, follow these steps:
+Para clonar e executar o projeto, siga estes passos:
 
-1.  Clone the repository: `git clone https://github.com/RafaelFrancoD/AstroSun.git`
+1.  Clone o repositório: `git clone https://github.com/RafaelFrancoD/AstroSun.git`
 
-## Website
+## Site
 
-The website is available at the following URL:
+O site está disponível no seguinte URL:
 
 [https://astro-sun.vercel.app/](https://astro-sun.vercel.app/)
