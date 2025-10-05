@@ -22,6 +22,11 @@ body {
     
 }
 
+body, html {
+    max-width: 100%;
+    overflow: hidden;
+}
+
 /* CABEÇALHO E NAVEGAÇÃO */
 header {
     background-color: var(--cor-terra);
