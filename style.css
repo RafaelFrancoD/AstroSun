@@ -326,7 +326,7 @@ position: relative;
     left: 0;
     
     /* Garante que o vídeo cubra 100% da largura e altura da div PAI */
-    min-width: 70%;
+    min-width: 100%;
     min-height: 100%;
     
     /* Faz o vídeo se adaptar à div (mantém a proporção) */
